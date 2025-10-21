@@ -1,0 +1,326 @@
+.forside-tips {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.ikoner-footer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-10%);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 80px;
+  position: relative;
+}
+
+/*************** Spis & Drik *******************/
+
+.oversigt {
+  list-style: none;
+  margin: 1em 0;
+  padding: 1em 2em;
+  background-color: rgb(217, 199, 203);
+  width: 100%;
+  display: block;
+}
+
+.oversigt li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.oversigt a {
+  text-decoration: none;
+  color: rgb(137, 29, 26);
+}
+
+.oversigt li:last-child {
+  margin-bottom: 0;
+}
+
+.hjerte p {
+  color: red;
+}
+
+.img-oversigt {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 0;
+}
+
+.spisdrikdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  align-items: center;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.caption-spis {
+  position: absolute;
+  text-align: center;
+  color: black;
+  background: #d9c7cb;
+  padding: 1em 1em;
+  font-size: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.h1-spis {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.p-spis {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.ølanbefalinger {
+  display: grid;
+  padding: 3em;
+}
+
+.madanbefalinger {
+  display: grid;
+  padding: 3em;
+}
+
+.kaffe-anbefalinger {
+  display: grid;
+  padding: 3em;
+}
+
+.forside-tips {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-left: 2em;
+  padding-right: 2em;
+  row-gap: 3em;
+}
+
+.item {
+  position: relative;
+  display: block;
+  width: 100%;
+  align-items: center;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.item img {
+  height: 100%;
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.item .caption {
+  position: absolute;
+  text-align: center;
+  color: black;
+  background: #d9c7cb;
+  padding: 1em 1em;
+  font-size: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.p-forside {
+  text-align: center;
+  color: rgb(137, 29, 26);
+  font-size: 20px;
+}
+
+/* Broke sammen */
+.fællesarrangement {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.p-brokesammen {
+  text-align: center;
+  margin-top: 30px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.h1-delhacks {
+  text-align: center;
+}
+
+.deltips {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tipstricks {
+  padding: 4em;
+}
+
+.item-spisdrik {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 2 em;
+  overflow: hidden;
+}
+
+.item-spisdrik img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 1em;
+}
+
+.item-spisdrik .caption-spisdrik {
+  position: absolute;
+  color: black;
+  background: #d9c7cb;
+}
+
+/* broke sammen */
+.tilmelddigher {
+  padding: 1em 1em;
+  margin: auto;
+  background-color: rgb(207, 224, 222);
+  color: rgb(137, 29, 26);
+  text-decoration: none;
+  text-align: center;
+  width: fit-content;
+  border: 1px solid black;
+}
+
+.p-knap-brokesammen {
+  display: grid;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  gap: 2em;
+}
+
+.fællesarrangement {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.fællesarrangement p {
+  font-size: extra bold;
+}
+
+.fællesarrangement img {
+  width: 100%;
+}
+
+.p-knap-brokesammen p {
+  font-weight: 700;
+}
+
+.deldinehacks {
+  margin-top: 100px;
+}
+
+.p-delhacks {
+  margin-top: 30px;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.p-brokesammen {
+  text-align: center;
+}
+
+.deltips {
+  margin-top: 70px;
+  display: grid;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.deltips img {
+  width: 100%;
+}
+
+.knap-delhacks {
+  padding: 1em 1em;
+  margin: auto;
+  background-color: rgb(207, 224, 222);
+  color: rgb(137, 29, 26);
+  text-decoration: none;
+  text-align: center;
+  width: fit-content;
+  border: 1px solid black;
+}
+
+.knap-delhacks a {
+  color: rgb(137, 29, 26);
+  text-decoration: none;
+}
+
+.h2-p {
+  padding: 2em;
+  margin-top: 3em;
+}
+
+.minefavoritter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  gap: 2em;
+  row-gap: 3em;
+  margin-top: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.minefavoritter img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+.minefavoritter p {
+  padding: 1em;
+  background: #d9c7cb;
+  color: rgb(137, 29, 26);
+  width: 100%;
+  text-align: center;
+}
