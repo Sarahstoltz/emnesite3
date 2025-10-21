@@ -1,0 +1,81 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap"); */
+
+@font-face {
+  font-family: interfont;
+  src: url(../fonts/Inter-VariableFont.woff);
+}
+
+.img {
+  max-width: 100%;
+}
+
+.body {
+  background-color: rgb(241, 230, 210);
+  font-family: interfont;
+}
+
+.hjerte {
+  color: rgb(255, 0, 0);
+}
+
+.h1-spis {
+  text-align: center;
+}
+
+.h1-forside {
+  text-align: center;
+  font-size: 64px;
+  padding: 1em;
+  color: rgb(137, 29, 26);
+  font-weight: bold;
+  margin-top: 2.5em;
+}
+
+.h2 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(137, 29, 26);
+  margin-top: 2em;
+}
+
+.socialemedier-footer {
+  width: 20%;
+}
+
+.læsmere-knap a {
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 80px;
+  position: relative;
+  margin-top: 4em;
+  margin-bottom: 2em;
+  border-top: 2px solid black;
+}
+
+.deltips-footer {
+  border: 1px solid black;
+  padding: 0.5em;
+}
+
+.black-line {
+  position: absolute;
+  width: 100vw;
+  height: 2px;
+  top: 62px;
+  background: black;
+  z-index: 2;
+  margin-top: 2em;
+}
+
+.logo-footer {
+  font-weight: 800;
+}
+
+.ikoner-footer {
+}
